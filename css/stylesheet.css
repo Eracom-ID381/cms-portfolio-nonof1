@@ -179,6 +179,18 @@ button:hover {
     grid-row: 2/3;
 }
 
+.illu07 {
+    margin-top: 3vh;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.illu08 {
+    margin-top: 2.5vh;
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
 /*GRAPHISME*/
 .graph01 {
     grid-column: 1/3;
