@@ -3,6 +3,18 @@ body {
     background-color: white;
 }
 
+.index {
+    background-image: url(img/index.png);
+    background-size: cover;
+}
+
+.bienvenue {
+    color: white;
+    text-align: center;
+    margin-top: 35vh;
+    font-size: 10vh;
+}
+
 .logo {
     width: 40%;
     margin-left: 37vw;
