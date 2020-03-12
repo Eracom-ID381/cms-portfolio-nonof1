@@ -191,6 +191,54 @@ button:hover {
     grid-row: 2/3;
 }
 
+.illu09 {
+    margin-top: 2.5vh;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.illu10 {
+    margin-top: 2.5vh;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.illu11 {
+    margin-top: 2.5vh;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+.illu12 {
+    margin-top: 2.5vh;
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
+.illu13 {
+    margin-top: 2.5vh;
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+.illu14 {
+    margin-top: 2.5vh;
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+
+.illu15 {
+    margin-top: 2.5vh;
+    grid-column: 3/5;
+    grid-row: 4/5;
+}
+
+.illu16 {
+    margin-top: 2.5vh;
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+
 /*GRAPHISME*/
 .graph01 {
     grid-column: 1/3;
