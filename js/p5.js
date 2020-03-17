@@ -1,9 +1,10 @@
 var canvas;
 
 function setup() {
-    canvas = createCanvas(windowWidth, windowHeight)
+    canvas = createCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
-    ellipse(300, 300, 50, 50);
+    fill(0);
+    ellipse(300, 300, 300, 300);
 }
