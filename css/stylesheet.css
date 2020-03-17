@@ -76,6 +76,16 @@ button:hover {
 }
 
 /*ANIMATION*/
+.contentanim {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 4vw;
+    margin-top: 3vh;
+    margin-left: 8vw;
+    margin-right: 5vw;
+}
+
 .anim01 {
     grid-column: 1/2;
     grid-row: auto;
@@ -96,18 +106,8 @@ button:hover {
     grid-row: auto;
 }
 
-.anim04 {
-    grid-column: 4/5;
-    grid-row: auto;
-}
-
-.anim04-02 {
-    grid-column: 2/3;
-    grid-row: auto;
-}
-
 .anim05 {
-    grid-column: 1/3;
+    grid-column: 1/4;
     grid-row: auto;
 }
 
@@ -117,17 +117,17 @@ button:hover {
 }
 
 .anim06 {
-    grid-column: 3/5;
+    grid-column: 1/4;
     grid-row: auto;
 }
 
 .anim06-02 {
-    grid-column: 3/5;
+    grid-column: 2/5;
     grid-row: auto;
 }
 
 .anim07 {
-    grid-column: 1/3;
+    grid-column: 1/4;
     grid-row: auto;
 }
 
@@ -607,6 +607,16 @@ main {
     }
 
     /*ANIMATION*/
+    .contentanim {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: auto;
+        grid-gap: 4vw;
+        margin-top: 3vh;
+        margin-left: 8vw;
+        margin-right: 5vw;
+    }
+
     .anim01 {
         grid-column: 1/2;
         grid-row: 1/2;
@@ -619,42 +629,32 @@ main {
 
     .anim03 {
         grid-column: 1/2;
-        grid-row: 2/3;
+        grid-row: 2/4;
     }
 
     .anim03-02 {
         grid-column: 1/2;
-        grid-row: 1/2;
-    }
-
-    .anim04-02 {
-        grid-column: 2/3;
-        grid-row: 1/2;
-    }
-
-    .anim06-02 {
-        grid-column: 1/3;
-        grid-row: 2/3;
-    }
-
-    .anim04 {
-        grid-column: 2/3;
         grid-row: 2/3;
     }
 
     .anim05 {
-        grid-column: 1/3;
-        grid-row: 3/4;
+        grid-column: 2/3;
+        grid-row: 2/3;
     }
 
     .anim06 {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+    .anim06-02 {
         grid-column: 1/3;
-        grid-row: 4/5;
+        grid-row: 1/2;
     }
 
     .anim07 {
         grid-column: 1/3;
-        grid-row: 5/6;
+        grid-row: 4/5;
     }
 
     /*GRAPHISME*/
@@ -1023,6 +1023,11 @@ main {
         grid-row: 3/4;
     }
 
+    .anim03-02 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
     .anim04 {
         grid-column: 1/2;
         grid-row: 4/5;
@@ -1045,7 +1050,7 @@ main {
 
     .anim06-02 {
         grid-column: 1/2;
-        grid-row: 2/3;
+        grid-row: 1/2;
     }
 
     .anim07 {
