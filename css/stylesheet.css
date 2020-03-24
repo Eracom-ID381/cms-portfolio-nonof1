@@ -4,8 +4,8 @@ body {
 }
 
 .index {
-    background-image: url(../img/index01.png);
     background-size: cover;
+    background-image: url(../img/index01.png);
 }
 
 .bienvenue {
